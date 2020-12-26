@@ -1,0 +1,7 @@
+.Navigation {
+  button {
+    & + button {
+      margin-top: 8px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+.Button {
+  cursor: pointer;
+  background: transparent;
+  color: var(--c-text-color);
+}
