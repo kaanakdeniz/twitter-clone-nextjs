@@ -1,7 +1,7 @@
 import React from "react";
 import { Bookmark, Explore, Home, Lists, Messages, More, Notification, Profile, Twitter } from "../Icons";
 import NavButton from "../NavButton/NavButton";
-import TitleBold from "../TitleBold/TitleBold";
+import TitleBold from "../TextTitle/TextTitle";
 
 import classes from "./Navigation.module.css";
 
