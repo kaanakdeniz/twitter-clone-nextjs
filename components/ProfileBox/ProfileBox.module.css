@@ -1,0 +1,22 @@
+.ProfileBox {
+  padding: 10px;
+  &:hover {
+    color: var(--c-text-color);
+  }
+}
+
+.Body {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.Icon {
+  margin-left: auto;
+}
+
+.Slug {
+  color: var(--c-gray);
+}

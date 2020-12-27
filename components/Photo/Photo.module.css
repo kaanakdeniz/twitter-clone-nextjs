@@ -1,0 +1,10 @@
+.Photo {
+  width: 47px;
+  flex-shrink: 0;
+}
+
+.Img {
+  display: block;
+  width: 100%;
+  border-radius: 99px;
+}

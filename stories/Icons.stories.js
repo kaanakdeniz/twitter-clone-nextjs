@@ -1,6 +1,8 @@
 import React from "react";
+import Photo from "../components/Photo/Photo";
 
 import * as Icons from "../components/Icons";
+import ProfileBox from "../components/ProfileBox/ProfileBox";
 
 export default {
   title: "Icons",
@@ -36,3 +38,6 @@ export const Share = () => <Icons.Share />;
 export const TimelineProp = () => <Icons.TimelineProp />;
 export const Tweet = () => <Icons.Tweet />;
 export const Twitter = () => <Icons.Twitter />;
+
+export const Avatar = () => <Photo />;
+export const ProfileCard = () => <ProfileBox />;
