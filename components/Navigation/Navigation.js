@@ -5,7 +5,7 @@ import TitleBold from "../TextTitle/TextTitle";
 
 import classes from "./Navigation.module.css";
 
-const Navigation = ({ selectedKey }) => {
+const Navigation = ({ flat = false, selectedKey }) => {
   return (
     <nav className={classes.Navigation}>
       <NavButton>
